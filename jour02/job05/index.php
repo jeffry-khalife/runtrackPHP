@@ -1,11 +1,10 @@
 <?php 
-
-for ($i = 2; $i <= 1000; $i++) {
-    $premier = true; 
-
-    for ($nb = 2; $nb <= sqrt($i); $nb++) {
+$premier = false;
+for ($i = 2; $i <= 1000; $i++) { 
+    $valeur = 2
+    for ($nb = 2; $nb % $i == 0; $nb++) {
         if ($i % $nb == 0) {
-            $premier = false; 
+            $premier = true; 
             break;
         }
     }
