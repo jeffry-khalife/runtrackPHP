@@ -12,7 +12,7 @@ echo $inverse;
 $str = "Les choses que l'on Possede finissent par nous posseder";
 $inverse = " ";
 $longeur= 0;
-while(isset($str[$longeur]) != null){
+while(isset($str[$longeur])){
     $longeur++;
 }
 for ($i = $longeur -1; $i > 0 ; $i-- ) {
