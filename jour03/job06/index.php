@@ -9,7 +9,7 @@ for ($i = strlen($str) -1; $i > 0 ; $i-- ) {
 echo $inverse;
 */
 
-$str = "Les choses que l'on Possède finissent par nous posséder";
+$str = "Les choses que l'on Possede finissent par nous posseder";
 $inverse = " ";
 $longeur= 0;
 while(isset($str[$longeur]) != null){
