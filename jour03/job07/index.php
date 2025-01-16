@@ -2,7 +2,7 @@
 $str = "Certaines choses changent, et d'autres ne changeront jamais.";
 $inversement = " ";
 $longeur= 0;
-while(isset($str[$longeur]) != null){
+while(isset($str[$longeur])){
     $longeur++;
 }
 for ($i = 0; $i < $longeur; $i++) {
