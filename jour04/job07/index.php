@@ -25,6 +25,7 @@ if (isset($_GET["largeur"]) && isset($_GET["hauteur"])) {
     //     }
     //     echo "\<br>";
     // }
+    //
 
     for ($i = 1; $i <= $_GET["largeur"]; $i++) {
         echo "_";
