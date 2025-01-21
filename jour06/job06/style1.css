@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(237, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.form-container {
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+button {
+    background-color: rgb(237, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(237, 0, 0);
+}
