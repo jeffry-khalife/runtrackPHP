@@ -1,0 +1,1 @@
+SELECT nom FROM salle UNION SELECT nom FROM etage;
