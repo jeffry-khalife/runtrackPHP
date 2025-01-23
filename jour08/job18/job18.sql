@@ -1,0 +1,1 @@
+SELECT nom,MAX(capacite) FROM salle UNION UPDATE salle SET nom = 'Lounge' WHERE nom='“Biggest Room”' ;
